@@ -1,0 +1,66 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Comic Neue Angular';
+  src: url('fonts/ComicNeue-Angular-Regular.woff') format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Comic Neue Angular';
+  src: url('fonts/ComicNeue-Angular-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+/* Common page styles */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 2em;
+  font: 300 18px/1.5 'Comic Neue Angular', sans-serif;
+  font-feature-settings: 'kern';
+}
+
+body {
+  max-width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dashed black;
+  padding: 50px;
+}
+
+/* Login page styles */
+
+.login-page h1, .welcome-page h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.login-page input {
+  display: block;
+  width: 100%;
+  margin-top: .25em;
+  padding: 5px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.login-page input[type="submit"] {
+  background-color: black;
+  color: white;
+  border: none;
+  font: 700 18px/36px 'Comic Neue Angular', sans-serif;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+/* Welcome page styles */
+
+.welcome-page {
+  text-align: center;
+}
