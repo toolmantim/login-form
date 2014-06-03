@@ -1,7 +1,9 @@
 login-form
 ==========
 
-A small site for introducing backend programming.
+A small site for introducing the very basics of backend programming.
+
+http://login-form.herokuapp.com/
 
 ### Tasks
 
@@ -13,6 +15,7 @@ A small site for introducing backend programming.
 
 * Files: https://github.com/toolmantim/login-form/tree/solution
 * Changes: https://github.com/toolmantim/login-form/compare/solution
+* Running solution: http://tims-login-form.herokuapp.com/
 
 ### Running on your machine
 
