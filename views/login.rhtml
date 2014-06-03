@@ -9,6 +9,9 @@
   <body>
     <article class="login-page">
       <h1>Login</h1>
+      <% if @error %>
+        <p class="error"><%= @error %></p>
+      <% end %>
       <form action="/login" method="post">
         <p>
           <label>Email <input type="email" name="email" placeholder="you@email.com" required></label>
