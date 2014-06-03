@@ -5,5 +5,6 @@ get '/' do
 end
 
 post '/login' do
+  @email = params[:email]
   erb :welcome
 end
