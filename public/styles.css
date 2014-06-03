@@ -22,6 +22,8 @@ html {
   padding: 2em;
   font: 300 18px/1.5 'Comic Neue Angular', sans-serif;
   font-feature-settings: 'kern';
+  color: #434130;
+  background-color: #f5f3e2;
 }
 
 body {
