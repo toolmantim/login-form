@@ -1,9 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  send_file 'views/login.html'
+  erb :login
 end
 
 post '/login' do
-  send_file 'views/welcome.html'
+  erb :welcome
 end
